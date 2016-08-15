@@ -1,18 +1,13 @@
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
+import { createApp } from 'mantra-core';
+import initContext from './configs/context';
 
-import './main.html';
-import './templates/info.html';
+// modules
+import coreModule from './modules/core';
 
-Template.info.helpers({
-  // this can be changed to support any functionality
-  scrapeTest() {
-    var website;
-    var handle = Meteor.subscribe("scrapes");
-    if (handle.ready()){
-      website = Scrapes.findOne();
-      website = JSON.stringify(website);
-    }
-    return website;
-  },
-});
+// init context
+const context = initContext();
+
+// create app
+const app = createApp(context);
+app.loadModule(coreModule);
+app.init();

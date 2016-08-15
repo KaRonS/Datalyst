@@ -1,10 +1,24 @@
 {
-  "name": "Datalyst",
+  "name": "datalyst",
   "private": true,
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
-  }
+    "bootstrap": "^4.0.0-alpha.2",
+    "mantra-core": "^1.7.0",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-mounter": "^1.2.0",
+    "tether": "^1.3.4"
+  },
+  "version": "1.0.0",
+  "description": "Datalyst Olympic Database Analyst",
+  "main": "index.js",
+  "keywords": [
+    "Datalyst"
+  ],
+  "author": "Alec Wantoch, KaRon Scott, George Arthur Jr, Zachary Pelkey",
+  "license": "ISC"
 }
