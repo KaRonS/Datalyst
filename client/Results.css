@@ -1,0 +1,30 @@
+html {
+    background: url("http://media.gettyimages.com/photos/runners-leave-the-starters-block-to-start-the-mens-100m-final-on-day-picture-id149861667?k=6&m=149861667&s=594x594&w=0&h=0G2MvcVi56GhVqxxTJOF44Zvck0KVg1uUSZD89AeRgo=")
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: brown;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
