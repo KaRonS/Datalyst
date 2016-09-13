@@ -5,10 +5,17 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "babyparse": "^0.4.6",
     "bootstrap": "^4.0.0-alpha.2",
+    "fibers": "^1.0.14",
     "mantra-core": "^1.7.0",
     "meteor-node-stubs": "~0.2.0",
+    "papa": "0.0.0",
+    "papaparse": "^4.1.2",
+    "r-script": "0.0.3",
     "react": "^15.3.0",
+    "react-d3": "^0.4.0",
+    "react-d3-components": "^0.6.5",
     "react-dom": "^15.3.0",
     "react-mounter": "^1.2.0",
     "tether": "^1.3.4"

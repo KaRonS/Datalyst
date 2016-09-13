@@ -5,3 +5,33 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
+body {
+  font: 12px Helvetica;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+li.rd3-legend-item {
+  min-width: 110px !important;
+}
+
+.rd3-legend-chart {
+  width: 100vw;
+  height: 75vh;
+  background: none !important;
+}
