@@ -1,4 +1,5 @@
 import React from 'react';
+import Calculations from '../containers/calculations.js';
 
 const Home = () => ({
 
@@ -6,6 +7,7 @@ const Home = () => ({
     render() {
         return (
             <div id="home">
+            	<Calculations />
             </div>
         );
     }
