@@ -1,0 +1,43 @@
+/* CSS declarations go here */
+#title {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: aller-bold, serif;
+    text-align: center;
+
+}
+
+html {
+    background: url("https://pixabay.com/static/uploads/photo/2016/07/12/17/22/rio-1512643_960_720.jpg")
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+#foot{
+    position: fixed;
+    bottom: 0;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.parallax {
+    background-image: url("https://pixabay.com/static/uploads/photo/2016/07/12/17/22/rio-1512643_960_720.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
