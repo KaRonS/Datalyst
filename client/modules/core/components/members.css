@@ -1,0 +1,27 @@
+.member-contain {
+    width: 140px;
+    height: 180px;
+    text-align: center;
+    margin: 15px;
+    background: floralwhite;
+    color: black;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.member-name {
+    font-size: 16px !important;
+}
+
+.email {
+    font-size: 10px !important;
+    display: block;
+    cursor: hand;
+}
+
+
+@media screen and (max-width: 768px){
+    #members{
+        margin-top: 200px;
+    }
+}

@@ -1,0 +1,308 @@
+@font-face {
+    font-family: Champagne;
+    src: url(/fonts/champagne.ttf);
+}
+    .champagne {
+        font-family: Champagne !important;
+    }
+
+@font-face {
+    font-family: ChampagneBold;
+    src: url(/fonts/champagneBold.ttf);
+}
+    .champagneBold {
+        font-family: ChampagneBold !important;
+    }
+
+body {
+    background: #00b3ee;
+}
+
+a.plainLink {
+    text-decoration: none;
+    color: white;
+}
+
+.mogra{
+    font-family: 'Mogra', cursive;
+}
+
+.kavoon{
+    font-family: 'Kavoon', cursive;
+}
+
+.hw-content{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.hw-title{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hw-card {
+    min-width: 75%;
+    min-height: 300px;
+    max-width: 1000px;
+    display: block;
+    padding: 10px;
+    margin: 0 10% 0 10%;
+    color: black;
+    text-align: center;
+}
+
+
+.sActive{
+    color: lightgreen;
+}
+
+#page-content{
+    position: relative;
+    margin-top: 62px;
+    width: 100%;
+    min-height: calc(100vh - 62px);
+    margin-right: 0;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-md{
+    height: calc(100vh - 62px);
+}
+
+
+.block-bg{
+    height: calc(100vh - 62px);
+}
+
+.block-text{
+    padding: 25px 70px 25px 70px;
+}
+
+.site-block-full{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    border-top: 1px solid rgba(169, 173, 178, 0.59);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.site-block-fixed{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    border-top: 1px solid rgba(169, 173, 178, 0.59);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.site-block{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    border-top: 1px solid rgba(169, 173, 178, 0.59);
+}
+
+.site-block-border{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+#dashboard{
+    padding-top: 70px;
+    background: #00b3ee;
+    text-align: center;
+    height: 100vh;
+}
+
+#home {
+    margin: -50px 10px 0 10px;
+    font-size: 60px;
+}
+
+#login{
+    min-width: 300px;
+    width: 40%;
+    min-height: 300px;
+    max-width: 1000px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    margin: 20px auto 20px auto;
+}
+
+.btn-center{
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+#search-results{
+    padding: 10px;
+}
+
+.head-img{
+    width: 100%;
+}
+
+#searchBar{
+    background-color: transparent;
+}
+
+
+#mobileMenu{
+    background-color: rgba(33, 33, 33, 0.78);
+    display: none;
+    z-index: 200;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 55px;
+    left: 0;
+    font-family: 'Allerta Stencil', sans-serif;
+    border-top: 1px solid #000000;
+}
+
+#mobileMenu > div {
+    display: block;
+}
+
+#mobileMenu a{
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;;
+}
+
+.red{
+    color: red !important;
+}
+
+
+.hw-col{
+    background: white;
+    text-align: center;
+}
+
+.features{
+    font-size: 18px;
+    text-align: left;
+}
+
+.hw-brand{
+    color: white;
+    float: left;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 1.85rem;
+    padding: .75rem;
+}
+
+.r-logo{
+    margin-top: 10px;
+    z-index: 200;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+}
+
+.link-text{
+    color: white;
+}
+
+.link-text:hover{
+    color: whitesmoke;
+}
+
+.hw-block{
+    text-align: center;
+}
+
+
+.or{
+    display: inline-block;
+    margin: 0 14px 0 14px;
+}
+
+.center-ctn{
+    margin: 0 auto;
+}
+
+.block-1{
+    min-height: calc(100vh - 62px);
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-image: url("/images/bg.jpg");
+}
+
+.block-2{
+    min-height: calc(100vh - 62px);
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-image: url("/images/orr.jpg");
+}
+
+
+.block-3{
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-image: url("/images/map.png");
+}
+
+@media screen and (max-width: 968px) {
+
+    .block-1{
+        min-height: calc(60vh - 62px);
+        background-position: top;
+        background-size: 100vw 60vh;
+    }
+
+    .hw-card {
+        min-width: 80%;
+        text-align: center;
+    }
+
+    #home {
+        margin-top: 0;
+        font-size: 50px;
+        text-align: left;
+    }
+
+    #login{
+        margin: 20px auto;
+    }
+
+    .hw-col {
+        display: block;
+        background: white;
+        min-height: 80%;
+        position: absolute;
+        width: 100%;
+    }
+
+    #page-content{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .block-text{
+        padding: 25px 20px 25px 20px;
+    }
+
+    .block-md{
+        height: calc(80vh - 62px);
+    }
+
+}
+
+

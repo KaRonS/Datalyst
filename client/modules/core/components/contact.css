@@ -1,0 +1,23 @@
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card{
+    margin: 10px auto 0 auto;
+    width: 50vw;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .contact-card{
+        width: 80vw;
+        padding: 10px;
+    }
+
+
+}
+
