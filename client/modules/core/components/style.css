@@ -18,27 +18,31 @@ body {
     background: #00b3ee;
 }
 
+li.rd3-legend-item {
+    width: 150px !important;
+}
+
 a.plainLink {
     text-decoration: none;
     color: white;
 }
 
-.mogra{
+.mogra {
     font-family: 'Mogra', cursive;
 }
 
-.kavoon{
+.kavoon {
     font-family: 'Kavoon', cursive;
 }
 
-.hw-content{
+.hw-content {
     color: black;
     font-size: 30px;
     text-align: center;
     width: 100%;
 }
 
-.hw-title{
+.hw-title {
     color: white;
     font-size: 30px;
     text-align: center;
@@ -56,11 +60,11 @@ a.plainLink {
 }
 
 
-.sActive{
+.sActive {
     color: lightgreen;
 }
 
-#page-content{
+#page-content {
     position: relative;
     margin-top: 62px;
     width: 100%;
@@ -72,20 +76,32 @@ a.plainLink {
     justify-content: center;
 }
 
-.block-md{
+.block-md {
     height: calc(100vh - 62px);
 }
 
+.window-block {
+    height: 70vh;
+    width: 100%vw
+}
 
-.block-bg{
+.back-block {
+    top: 100px;
+    position: fixed;
+    z-index:-1;
+}
+
+
+.block-bg {
     height: calc(100vh - 62px);
 }
 
-.block-text{
+.block-text {
     padding: 25px 70px 25px 70px;
 }
 
-.site-block-full{
+.site-block-full {
+    z-index: 5;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -94,7 +110,9 @@ a.plainLink {
     background-repeat: no-repeat;
 }
 
-.site-block-fixed{
+.site-block-fixed {
+    z-index: 5;
+    z-index:;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -104,20 +122,22 @@ a.plainLink {
     background-size: 100vw 100vh;
 }
 
-.site-block{
+.site-block {
+    background-color: white;
+    z-index: 5;
     margin: 0;
     padding: 0;
     width: 100vw;
     border-top: 1px solid rgba(169, 173, 178, 0.59);
 }
 
-.site-block-border{
+.site-block-border {
     margin: 0;
     padding: 0;
     width: 100vw;
 }
 
-#dashboard{
+#dashboard {
     padding-top: 70px;
     background: #00b3ee;
     text-align: center;
@@ -255,6 +275,12 @@ a.plainLink {
     background-size: 100vw 100vh;
     background-position: center;
     background-image: url("/images/map.png");
+}
+
+.block-4{
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-image: url("/images/hu.jpg");
 }
 
 @media screen and (max-width: 968px) {

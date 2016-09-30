@@ -2,12 +2,12 @@
   // Server authentication info
   "servers": [
     {
-      "host": "a.datalyst.xyz",
+      "host": "a.heiwa.host",
       "username": "root",
-      "password": "",
+      //"password": "",
       // or pem file (ssh based authentication)
       // WARNING: Keys protected by a passphrase are not supported
-      //"pem": "~/.ssh/id_rsa"
+      "pem": "~/.ssh/id_rsa",
       // Also, for non-standard ssh port use this
       //"sshOptions": { "port" : 49154 },
       // server specific environment variables
@@ -29,7 +29,7 @@
   // Configure environment
   // ROOT_URL must be set to your correct domain (https or http)
   "env": {
-    "PORT": 3050,
+    "PORT": 3090,
     "UPSTART_UID": "meteoruser",
     "MONGO_URL": "mongodb://127.0.0.1:27017/datalyst",
     "ROOT_URL": "http://datalyst.xyz"

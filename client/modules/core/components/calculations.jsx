@@ -38,7 +38,7 @@ const renderGraphs = (results) => {
           legend={true}
           data={lineData}
           width={800}
-          height={800}
+          height={500}
           title="Olympic Data Predictions"
         />
         )

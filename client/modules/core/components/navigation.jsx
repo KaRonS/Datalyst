@@ -13,13 +13,13 @@ const changeRoute = (name) => {
 const renderNav = () => {
   var nav = [
             {
-                    "name" : "Buyers",
-                    "route" : "#buyers",
+                    "name" : "Overview",
+                    "route" : "#overview",
                     "order" : 0
             },
             {
-                    "name" : "Sellers",
-                    "route" : "#sellers",
+                    "name" : "Analysis",
+                    "route" : "#analysis",
                     "order" : 1
             },
             {
@@ -28,8 +28,8 @@ const renderNav = () => {
                     "order" : 2
             },
             {
-                    "name" : "Operation Realtor Rescue",
-                    "route" : "#orr",
+                    "name" : "References",
+                    "route" : "#sellers",
                     "order" : 3
             }
     ];
@@ -43,15 +43,11 @@ const renderNav = () => {
 const Navigation = ({navItems}) => (
      <div  id="nav-contain">
       <nav className="navbar navbar-yeah hidden-sm-down">
-          <div className="navbar-toggler navLogo">
-              <img className="r-logo" width="50px" src="/images/logo.png"/>
-          </div>
         {renderNav()}
       </nav>
          <div className="hw-brand hidden-md-up">
              <a className="plainLink" href="tel:1-717-968-8368"><i className="fa fa-phone" aria-hidden="true"></i></a>
-             <img width="50px" src="/images/nice-highres.png"/>
-             Ryan Thomas
+             Datalyst
          </div>
          <div id="menuToggle" className="hidden-md-up navbar-toggler navButton" onClick={menuClick.bind(this)}>
              <i className="fa fa-bars" aria-hidden="true"/>
